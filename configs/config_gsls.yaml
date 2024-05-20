@@ -1,0 +1,47 @@
+n_examples: 10000
+dataset: cifar10
+model_name: Sehwag2021Proxy_R18
+threat_model: Linf
+batch_size: 4000
+
+# Parameters for each attack
+param:
+  max_iter: 100
+  use_cw_value: true
+  num_nodes: 10
+  epsilon: 0.03137254902
+  scale: 1.0
+normalization: 
+  norm_type: sign
+stepsize:
+  max_iter: 
+  epsilon: 
+  strategy: apgd
+  initial_stepsize: 0.06274509804
+  rho: 0.75
+  w_ratio: 0.22
+  size_decr_ratio: 0.03
+  n_iter_min_ratio: 0.06
+algorithm:
+  momentum_alpha: 0.75
+  beta_method: HS
+initialpoint:
+  method: pas
+  epsilon: 
+  odi_step: 0.03137254902
+  odi_iter: 2
+  dataset: 
+
+# Parameters for ADE
+n_algorithms: 5
+sample_ratio: 0.01
+max_iter: 4
+seed: 0
+in_indicator: di
+out_indicator: classes
+ranking_strategy: 2
+
+# Parameters for ADEA
+single: false
+phi_1: 0.22
+phi_2: 0.19

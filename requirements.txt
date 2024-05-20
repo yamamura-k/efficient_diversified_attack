@@ -1,0 +1,10 @@
+# latest (6, Feb, 2023)
+--find-links https://download.pytorch.org/whl/cu117/torch_stable.html
+torch==1.13.1+cu117
+torchvision==0.14.1+cu117
+git+https://github.com/RobustBench/robustbench.git@v1.1
+pyyaml
+cython
+easydict
+
+colorlog # for logging

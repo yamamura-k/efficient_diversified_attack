@@ -1,0 +1,75 @@
+
+
+## model_name: [citation, architecture]
+# cifar10
+Ding2020MMA  : WideResNet-28-4
+Gowal2020Uncovering_28_10_extra  : WideResNet-28-10
+Zhang2020Geometry  : WideResNet-28-10
+Rebuffi2021Fixing_28_10_cutmix_ddpm  : WideResNet-28-10
+Rade2021Helper_ddpm  : WideResNet-28-10
+Carmon2019Unlabeled  : WideResNet-28-10
+Sridhar2021Robust  : WideResNet-28-10
+Hendrycks2019Using  : WideResNet-28-10
+Sehwag2020Hydra  : WideResNet-28-10
+Wang2020Improving  : WideResNet-28-10
+Wu2020Adversarial_extra  : WideResNet-28-10
+Sehwag2021Proxy  : WideResNet-34-10
+Sitawarin2020Improving  : WideResNet-34-10
+Wu2020Adversarial  : WideResNet-34-10
+Rade2021Helper_extra  : WideResNet-34-10
+Zhang2019You  : WideResNet-34-10
+Zhang2019Theoretically  : WideResNet-34-10
+Zhang2020Attacks  : WideResNet-34-10
+Huang2020Self  : WideResNet-34-10
+Cui2020Learnable_34_10  : WideResNet-34-10
+Chen2020Efficient  : WideResNet-34-10
+Sridhar2021Robust_34_15  : WideResNet-34-15
+Cui2020Learnable_34_20  : WideResNet-34-20
+Rice2020Overfitting  : WideResNet-34-20
+Gowal2020Uncovering_34_20 : WideResNet-34-20
+Pang2020Boosting  : WideResNet-34-20
+Huang2021Exploring : WideResNet-34-R
+Huang2021Exploring_ema  : WideResNet-34-R
+Gowal2020Uncovering_70_16: WideResNet-70-16
+Gowal2020Uncovering_70_16_extra: WideResNet-70-16
+Gowal2021Improving_70_16_ddpm_100m: WideResNet-70-16
+Rebuffi2021Fixing_70_16_cutmix_ddpm  : WideResNet-70-16
+Rebuffi2021Fixing_70_16_cutmix_extra  : WideResNet-70-16
+Rebuffi2021Fixing_106_16_cutmix_ddpm  : WideResNet-106-16
+Sehwag2021Proxy_R18  : ResNet-18
+Chen2020Adversarial  : ResNet-50
+Engstrom2019Robustness  : ResNet-50
+Wong2020Fast  : PreActResNet-18
+Rade2021Helper_R18_ddpm  : PreActResNet-18
+Rade2021Helper_R18_extra  : PreActResNet-18
+Rebuffi2021Fixing_R18_ddpm  : PreActResNet-18
+Andriushchenko2020Understanding : PreActResNet-18
+# ImageNet
+Salman2020Do_50_2  : WideResNet-50-2
+Salman2020Do_R50  : ResNet-50
+Engstrom2019Robustness  : ResNet-50
+Wong2020Fast  : ResNet-50
+Salman2020Do_R18 : ResNet-18
+
+# cifar100
+Rice2020Overfitting: PreActResNet-18
+Rebuffi2021Fixing_70_16_cutmix_ddpm: WideResNet-70-16
+Rebuffi2021Fixing_28_10_cutmix_ddpm: WideResNet-28-10
+Wu2020Adversarial: WideResNet-34-10
+Cui2020Learnable_34_10_LBGAT6: WideResNet-34-10
+Addepalli2021Towards_WRN34: WideResNet-34-10
+Addepalli2021Towards_PARN18: PreActResNet-18
+
+Addepalli2022Efficient_RN18: ResNet-18
+Addepalli2022Efficient_WRN_34_10: WideResNet-34-10
+
+Hendrycks2019Using: WideResNet-28-10
+Gowal2020Uncovering: WideResNet-70-16
+Cui2020Learnable_34_20_LBGAT6: WideResNet-34-20
+Cui2020Learnable_34_10_LBGAT0: WideResNet-34-10
+Sitawarin2020Improving: WideResNet-34-10
+Rebuffi2021Fixing_R18_ddpm: PreActResNet-18
+Chen2020Efficient: WideResNet-34-10
+Gowal2020Uncovering_extra: WideResNet-70-16
+Chen2021LTD_WRN34_10: WideResNet-34-10
+Rade2021Helper_R18_ddpm: PreActResNet-18

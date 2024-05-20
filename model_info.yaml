@@ -1,0 +1,870 @@
+cifar10:
+  Addepalli2021Towards_RN18:
+    architecture: ResNet-18
+    autoattack_acc: 51.06
+    clean_acc: 80.24
+    eps: 0.03137254901960784
+    paper: Towards Achieving Adversarial Robustness Beyond Perceptual Limits
+    reported: 51.06
+  Addepalli2021Towards_WRN34:
+    architecture: WideResNet-34-10
+    autoattack_acc: 58.04
+    clean_acc: 85.32
+    eps: 0.03137254901960784
+    paper: Towards Achieving Adversarial Robustness Beyond Perceptual Limits
+    reported: 58.04
+  Addepalli2022Efficient_RN18:
+    architecture: ResNet-18
+    autoattack_acc: 52.48
+    clean_acc: 85.71
+    eps: 0.03137254901960784
+    paper: Efficient and Effective Augmentation Strategy for Adversarial Training
+    reported: 52.5
+  Addepalli2022Efficient_WRN_34_10:
+    architecture: WideResNet-34-10
+    autoattack_acc: 57.81
+    clean_acc: 88.71
+    eps: 0.03137254901960784
+    paper: Efficient and Effective Augmentation Strategy for Adversarial Training
+    reported: 57.81
+  Alayrac2019Labels:
+    architecture: WideResNet-28-10
+    autoattack_acc: 56.03
+    clean_acc: 86.46
+    eps: 0.03137254901960784
+    paper: Are Labels Required for Improving Adversarial Robustness?
+    reported: 56.3
+  Alfarra2020ClusTR:
+    architecture: WideResNet-28-10
+    autoattack_acc: 0.0
+    clean_acc: 91.03
+    eps: 0.03137254901960784
+    paper: 'ClusTR: Clustering Training for Robustness
+
+      '
+    reported: 74.04
+  Andriushchenko2020Understanding:
+    architecture: PreActResNet-18
+    autoattack_acc: 43.93
+    clean_acc: 79.84
+    eps: 0.03137254901960784
+    paper: Understanding and Improving Fast Adversarial Training
+    reported: 44.54
+  Atzmon2019Controlling:
+    architecture: ResNet-18
+    autoattack_acc: 40.22
+    clean_acc: 81.3
+    eps: 0.031
+    paper: Controlling Neural Level Sets
+    reported: 43.17
+  Carmon2019Unlabeled:
+    architecture: WideResNet-28-10
+    autoattack_acc: 59.53
+    clean_acc: 89.69
+    eps: 0.03137254901960784
+    paper: Unlabeled Data Improves Adversarial Robustness
+    reported: 62.5
+  Chan2020Jacobian:
+    architecture: WideResNet-34-10
+    autoattack_acc: 0.26
+    clean_acc: 93.79
+    eps: 0.03137254901960784
+    paper: Jacobian Adversarially Regularized Networks for Robustness
+    reported: 15.5
+  Chen2020Adversarial:
+    architecture: ResNet-50
+    autoattack_acc: 51.56
+    clean_acc: 86.04
+    eps: 0.03137254901960784
+    paper: 'Adversarial Robustness: From Self-Supervised Pre-Training to Fine-Tuning'
+    reported: 54.64
+  Chen2020Efficient:
+    architecture: WideResNet-34-10
+    autoattack_acc: 51.12
+    clean_acc: 85.32
+    eps: 0.03137254901960784
+    paper: Efficient Robust Training via Backward Smoothing
+    reported: 51.13
+  Chen2021LTD_WRN34_10:
+    architecture: WideResNet-34-10
+    autoattack_acc: 56.94
+    clean_acc: 85.21
+    eps: 0.03137254901960784
+    paper: 'LTD: Low Temperature Distillation for Robust Adversarial Training'
+    reported: 56.94
+  Chen2021LTD_WRN34_20:
+    architecture: WideResNet-34-20
+    autoattack_acc: 57.71
+    clean_acc: 86.03
+    eps: 0.03137254901960784
+    paper: 'LTD: Low Temperature Distillation for Robust Adversarial Training'
+    reported: 57.71
+  Cui2020Learnable_34_10:
+    architecture: WideResNet-34-10
+    autoattack_acc: 52.86
+    clean_acc: 88.22
+    eps: 0.031
+    paper: Learnable Boundary Guided Adversarial Training
+    reported: 52.86
+  Cui2020Learnable_34_20:
+    architecture: WideResNet-34-20
+    autoattack_acc: 53.57
+    clean_acc: 88.7
+    eps: 0.031
+    paper: Learnable Boundary Guided Adversarial Training
+    reported: 53.57
+  Dai2021Parameterizing:
+    architecture: WideResNet-28-10-PSSiLU
+    autoattack_acc: 61.55
+    clean_acc: 87.02
+    eps: 0.03137254901960784
+    paper: Parameterizing Activation Functions for Adversarial Robustness
+    reported: 61.55
+  Debenedetti2022Light_XCiT-L12:
+    architecture: XCiT-L12
+    autoattack_acc: 57.58
+    clean_acc: 91.73
+    eps: 0.03137254901960784
+    paper: A Light Recipe to Train Robust Vision Transformers
+    reported: 57.58
+  Debenedetti2022Light_XCiT-M12:
+    architecture: XCiT-M12
+    autoattack_acc: 57.27
+    clean_acc: 91.3
+    eps: 0.03137254901960784
+    paper: A Light Recipe to Train Robust Vision Transformers
+    reported: 57.27
+  Debenedetti2022Light_XCiT-S12:
+    architecture: XCiT-S12
+    autoattack_acc: 56.14
+    clean_acc: 90.06
+    eps: 0.03137254901960784
+    paper: A Light Recipe to Train Robust Vision Transformers
+    reported: 56.14
+  Ding2020MMA:
+    architecture: WideResNet-28-4
+    autoattack_acc: 41.44
+    clean_acc: 84.36
+    eps: 0.03137254901960784
+    paper: 'MMA Training: Direct Input Space Margin Maximization through Adversarial
+      Training'
+    reported: 47.18
+  Engstrom2019Robustness:
+    architecture: ResNet-50
+    autoattack_acc: 49.25
+    clean_acc: 87.03
+    eps: 0.03137254901960784
+    paper: Robustness library
+    reported: 53.29
+  Gowal2020Uncovering_28_10_extra:
+    architecture: WideResNet-28-10
+    autoattack_acc: 62.8
+    clean_acc: 89.48
+    eps: 0.03137254901960784
+    paper: Uncovering the Limits of Adversarial Training against Norm-Bounded Adversarial
+      Examples
+    reported: 62.76
+  Gowal2020Uncovering_34_20:
+    architecture: WideResNet-34-20
+    autoattack_acc: 56.86
+    clean_acc: 85.64
+    eps: 0.03137254901960784
+    paper: Uncovering the Limits of Adversarial Training against Norm-Bounded Adversarial
+      Examples
+    reported: 56.82
+  Gowal2020Uncovering_70_16:
+    architecture: WideResNet-70-16
+    autoattack_acc: 57.2
+    clean_acc: 85.29
+    eps: 0.03137254901960784
+    paper: Uncovering the Limits of Adversarial Training against Norm-Bounded Adversarial
+      Examples
+    reported: 57.14
+  Gowal2020Uncovering_70_16_extra:
+    architecture: WideResNet-70-16
+    autoattack_acc: 65.88
+    clean_acc: 91.1
+    eps: 0.03137254901960784
+    paper: Uncovering the Limits of Adversarial Training against Norm-Bounded Adversarial
+      Examples
+    reported: 65.87
+  Gowal2021Improving_28_10_ddpm_100m:
+    architecture: WideResNet-28-10
+    autoattack_acc: 63.44
+    clean_acc: 87.5
+    eps: 0.03137254901960784
+    paper: Improving Robustness using Generated Data
+    reported: 63.38
+  Gowal2021Improving_70_16_ddpm_100m:
+    architecture: WideResNet-70-16
+    autoattack_acc: 66.11
+    clean_acc: 88.74
+    eps: 0.03137254901960784
+    paper: Improving Robustness using Generated Data
+    reported: 66.1
+  Gowal2021Improving_R18_ddpm_100m:
+    architecture: PreActResNet-18
+    autoattack_acc: 58.63
+    clean_acc: 87.35
+    eps: 0.03137254901960784
+    paper: Improving Robustness using Generated Data
+    reported: 58.5
+  Hendrycks2019Using:
+    architecture: WideResNet-28-10
+    autoattack_acc: 54.92
+    clean_acc: 87.11
+    eps: 0.03137254901960784
+    paper: Using Pre-Training Can Improve Model Robustness and Uncertainty
+    reported: 57.4
+  Huang2020Self:
+    architecture: WideResNet-34-10
+    autoattack_acc: 53.34
+    clean_acc: 83.48
+    eps: 0.031
+    paper: 'Self-Adaptive Training: beyond Empirical Risk Minimization'
+    reported: 58.03
+  Huang2021Exploring:
+    architecture: WideResNet-34-R
+    autoattack_acc: 61.56
+    clean_acc: 90.56
+    eps: 0.03137254901960784
+    paper: Exploring Architectural Ingredients of Adversarially Robust Deep Neural
+      Networks
+    reported: 61.56
+  Huang2021Exploring_ema:
+    architecture: WideResNet-34-R
+    autoattack_acc: 62.54
+    clean_acc: 91.23
+    eps: 0.03137254901960784
+    paper: Exploring Architectural Ingredients of Adversarially Robust Deep Neural
+      Networks
+    reported: 62.54
+  Jang2019Adversarial:
+    architecture: ResNet-20
+    autoattack_acc: 34.95
+    clean_acc: 78.91
+    eps: 0.03137254901960784
+    paper: Adversarial Defense via Learning to Generate Diverse Attacks
+    reported: 37.4
+  Jia2022LAS-AT_34_10:
+    architecture: WideResNet-34-10
+    autoattack_acc: 56.26
+    clean_acc: 84.98
+    eps: 0.03137254901960784
+    paper: 'LAS-AT: Adversarial Training with Learnable Attack Strategy'
+    reported: 56.26
+  Jia2022LAS-AT_70_16:
+    architecture: WideResNet-70-16
+    autoattack_acc: 57.61
+    clean_acc: 85.66
+    eps: 0.03137254901960784
+    paper: 'LAS-AT: Adversarial Training with Learnable Attack Strategy'
+    reported: 57.61
+  JinRinard2020Manifold:
+    architecture: ResNet-18
+    autoattack_acc: 1.35
+    clean_acc: 90.84
+    eps: 0.03137254901960784
+    paper: Manifold Regularization for Adversarial Robustness
+    reported: 71.22
+  Kang2021Stable:
+    architecture: WideResNet-70-16, Neural ODE block
+    autoattack_acc: 71.28
+    clean_acc: 93.73
+    eps: 0.03137254901960784
+    paper: Stable Neural ODE with Lyapunov-Stable Equilibrium Points for Defending
+      Against Adversarial Attacks
+    reported: 71.28
+  KimWang2020Sensible:
+    architecture: WideResNet-34-10
+    autoattack_acc: 34.22
+    clean_acc: 91.51
+    eps: 0.03137254901960784
+    paper: Sensible adversarial learning
+    reported: 57.23
+  Kumari2019Harnessing:
+    architecture: WideResNet-34-10
+    autoattack_acc: 49.12
+    clean_acc: 87.8
+    eps: 0.03137254901960784
+    paper: Harnessing the Vulnerability of Latent Layers in Adversarially Trained
+      Models
+    reported: 53.04
+  Kundu2020Tunable:
+    architecture: ResNet-18
+    autoattack_acc: 40.41
+    clean_acc: 87.32
+    eps: 0.03137254901960784
+    paper: A Tunable Robust Pruning Framework Through Dynamic Network Rewiring of
+      DNNs
+    reported: 47.35
+  Madry2018Towards:
+    architecture: WideResNet-34-10
+    autoattack_acc: 44.04
+    clean_acc: 87.14
+    eps: 0.03137254901960784
+    paper: Towards Deep Learning Models Resistant to Adversarial Attacks
+    reported: 47.04
+  Mao2019Metric:
+    architecture: WideResNet-34-10
+    autoattack_acc: 47.41
+    clean_acc: 86.21
+    eps: 0.03137254901960784
+    paper: Metric Learning for Adversarial Robustness
+    reported: 50.03
+  Moosavi-Dezfooli2019Robustness:
+    architecture: ResNet-18
+    autoattack_acc: 38.5
+    clean_acc: 83.11
+    eps: 0.03137254901960784
+    paper: Robustness via Curvature Regularization, and Vice Versa
+    reported: 41.4
+  Mustafa2019Adversarial:
+    architecture: ResNet-110
+    autoattack_acc: 0.28
+    clean_acc: 89.16
+    eps: 0.03137254901960784
+    paper: Adversarial Defense by Restricting the Hidden Space of Deep Neural Networks
+    reported: 32.32
+  Pang2020Bag:
+    architecture: WideResNet-34-20
+    autoattack_acc: 54.39
+    clean_acc: 86.43
+    eps: 0.03137254901960784
+    paper: Bag of Tricks for Adversarial Training
+    reported: 54.39
+  Pang2020Boosting:
+    architecture: WideResNet-34-20
+    autoattack_acc: 53.74
+    clean_acc: 85.14
+    eps: 0.03137254901960784
+    paper: Boosting Adversarial Training with Hypersphere Embedding
+    reported: 53.74
+  Pang2020Rethinking:
+    architecture: ResNet-32
+    autoattack_acc: 43.48
+    clean_acc: 80.89
+    eps: 0.03137254901960784
+    paper: Rethinking Softmax Cross-Entropy Loss for Adversarial Robustness
+    reported: 55.0
+  Pang2022Robustness_WRN28_10:
+    architecture: WideResNet-28-10
+    autoattack_acc: 61.04
+    clean_acc: 88.61
+    eps: 0.03137254901960784
+    paper: ' Robustness and Accuracy Could Be Reconcilable by (Proper) Definition'
+    reported: 61.04
+  Pang2022Robustness_WRN70_16:
+    architecture: WideResNet-70-16
+    autoattack_acc: 63.35
+    clean_acc: 89.01
+    eps: 0.03137254901960784
+    paper: ' Robustness and Accuracy Could Be Reconcilable by (Proper) Definition'
+    reported: 63.35
+  Qin2019Adversarial:
+    architecture: WideResNet-40-8
+    autoattack_acc: 52.84
+    clean_acc: 86.28
+    eps: 0.03137254901960784
+    paper: Adversarial Robustness through Local Linearization
+    reported: 52.81
+  Rade2021Helper_R18_ddpm:
+    architecture: PreActResNet-18
+    autoattack_acc: 57.09
+    clean_acc: 86.86
+    eps: 0.03137254901960784
+    paper: 'Helper-based Adversarial Training: Reducing Excessive Margin to Achieve
+      a Better Accuracy vs. Robustness Trade-off'
+    reported: 57.09
+  Rade2021Helper_R18_extra:
+    architecture: PreActResNet-18
+    autoattack_acc: 57.67
+    clean_acc: 89.02
+    eps: 0.03137254901960784
+    paper: 'Helper-based Adversarial Training: Reducing Excessive Margin to Achieve
+      a Better Accuracy vs. Robustness Trade-off'
+    reported: 57.67
+  Rade2021Helper_ddpm:
+    architecture: WideResNet-28-10
+    autoattack_acc: 60.97
+    clean_acc: 88.16
+    eps: 0.03137254901960784
+    paper: 'Helper-based Adversarial Training: Reducing Excessive Margin to Achieve
+      a Better Accuracy vs. Robustness Trade-off'
+    reported: 60.97
+  Rade2021Helper_extra:
+    architecture: WideResNet-34-10
+    autoattack_acc: 62.83
+    clean_acc: 91.47
+    eps: 0.03137254901960784
+    paper: 'Helper-based Adversarial Training: Reducing Excessive Margin to Achieve
+      a Better Accuracy vs. Robustness Trade-off'
+    reported: 62.83
+  Rebuffi2021Fixing_106_16_cutmix_ddpm:
+    architecture: WideResNet-106-16
+    autoattack_acc: 64.64
+    clean_acc: 88.5
+    eps: 0.03137254901960784
+    paper: Fixing Data Augmentation to Improve Adversarial Robustness
+    reported: 64.58
+  Rebuffi2021Fixing_28_10_cutmix_ddpm:
+    architecture: WideResNet-28-10
+    autoattack_acc: 60.75
+    clean_acc: 87.33
+    eps: 0.03137254901960784
+    paper: Fixing Data Augmentation to Improve Adversarial Robustness
+    reported: 60.73
+  Rebuffi2021Fixing_70_16_cutmix_ddpm:
+    architecture: WideResNet-70-16
+    autoattack_acc: 64.25
+    clean_acc: 88.54
+    eps: 0.03137254901960784
+    paper: Fixing Data Augmentation to Improve Adversarial Robustness
+    reported: 64.2
+  Rebuffi2021Fixing_70_16_cutmix_extra:
+    architecture: WideResNet-70-16
+    autoattack_acc: 66.58
+    clean_acc: 92.23
+    eps: 0.03137254901960784
+    paper: Fixing Data Augmentation to Improve Adversarial Robustness
+    reported: 66.56
+  Rebuffi2021Fixing_R18_ddpm:
+    architecture: PreActResNet-18
+    autoattack_acc: 56.66
+    clean_acc: 83.53
+    eps: 0.03137254901960784
+    paper: Fixing Data Augmentation to Improve Adversarial Robustness
+    reported: 56.66
+  Rice2020Overfitting:
+    architecture: WideResNet-34-20
+    autoattack_acc: 53.42
+    clean_acc: 85.34
+    eps: 0.03137254901960784
+    paper: Overfitting in adversarially robust deep learning
+    reported: 58.0
+  Sehwag2020Hydra:
+    architecture: WideResNet-28-10
+    autoattack_acc: 57.14
+    clean_acc: 88.98
+    eps: 0.03137254901960784
+    paper: 'HYDRA: Pruning Adversarially Robust Neural Networks'
+    reported: 62.24
+  Sehwag2021Proxy:
+    architecture: WideResNet-34-10
+    autoattack_acc: 60.27
+    clean_acc: 86.68
+    eps: 0.03137254901960784
+    paper: 'Robust Learning Meets Generative Models: Can Proxy Distributions Improve
+      Adversarial Robustness?'
+    reported: 60.3
+  Sehwag2021Proxy_R18:
+    architecture: ResNet-18
+    autoattack_acc: 55.54
+    clean_acc: 84.59
+    eps: 0.03137254901960784
+    paper: 'Robust Learning Meets Generative Models: Can Proxy Distributions Improve
+      Adversarial Robustness?'
+    reported: 55.54
+  Sehwag2021Proxy_ResNest152:
+    architecture: ResNest152
+    autoattack_acc: 62.79
+    clean_acc: 87.3
+    eps: 0.03137254901960784
+    paper: 'Robust Learning Meets Generative Models: Can Proxy Distributions Improve
+      Adversarial Robustness?'
+    reported: 62.79
+  Shafahi2019Adversarial:
+    architecture: WideResNet-34-10
+    autoattack_acc: 41.47
+    clean_acc: 86.11
+    eps: 0.03137254901960784
+    paper: Adversarial Training for Free!
+    reported: 46.19
+  Sitawarin2020Improving:
+    architecture: WideResNet-34-10
+    autoattack_acc: 50.72
+    clean_acc: 86.84
+    eps: 0.03137254901960784
+    paper: Improving Adversarial Robustness Through Progressive Hardening
+    reported: 50.72
+  Sridhar2021Robust:
+    architecture: WideResNet-28-10
+    autoattack_acc: 59.66
+    clean_acc: 89.46
+    eps: 0.03137254901960784
+    paper: Improving Neural Network Robustness via Persistency of Excitation
+    reported: 59.66
+  Sridhar2021Robust_34_15:
+    architecture: WideResNet-34-15
+    autoattack_acc: 60.41
+    clean_acc: 86.53
+    eps: 0.03137254901960784
+    paper: Improving Neural Network Robustness via Persistency of Excitation
+    reported: 60.41
+  Standard:
+    architecture: WideResNet-28-10
+    autoattack_acc: 0.0
+    clean_acc: 94.78
+    eps: 0.03137254901960784
+    paper: Standardly trained model
+    reported: 0.0
+  Wang2020Improving:
+    architecture: WideResNet-28-10
+    autoattack_acc: 56.29
+    clean_acc: 87.5
+    eps: 0.03137254901960784
+    paper: Improving Adversarial Robustness Requires Revisiting Misclassified Examples
+    reported: 65.04
+  WangZhang2019Bilateral:
+    architecture: WideResNet-28-10
+    autoattack_acc: 29.35
+    clean_acc: 92.8
+    eps: 0.03137254901960784
+    paper: 'Bilateral Adversarial Training: Towards Fast Training of More Robust Models
+      Against Adversarial Attacks'
+    reported: 58.6
+  Wong2020Fast:
+    architecture: PreActResNet-18
+    autoattack_acc: 43.21
+    clean_acc: 83.34
+    eps: 0.03137254901960784
+    paper: 'Fast is better than free: Revisiting adversarial training'
+    reported: 46.06
+  Wu2020Adversarial:
+    architecture: WideResNet-34-10
+    autoattack_acc: 56.17
+    clean_acc: 85.36
+    eps: 0.03137254901960784
+    paper: Adversarial Weight Perturbation Helps Robust Generalization
+    reported: 56.17
+  Wu2020Adversarial_extra:
+    architecture: WideResNet-28-10
+    autoattack_acc: 60.04
+    clean_acc: 88.25
+    eps: 0.03137254901960784
+    paper: Adversarial Weight Perturbation Helps Robust Generalization
+    reported: 60.04
+  Wu2020Do:
+    architecture: WideResNet-34-15
+    autoattack_acc: 60.65
+    clean_acc: 87.67
+    eps: 0.03137254901960784
+    paper: Do Wider Neural Networks Really Help Adversarial Robustness?
+    reported: 60.65
+  Xiao2020Enhancing:
+    architecture: DenseNet-121
+    autoattack_acc: 18.5
+    clean_acc: 79.28
+    eps: 0.031
+    paper: Enhancing Adversarial Defense by k-Winners-Take-All
+    reported: 52.4
+  Zhang2019Theoretically:
+    architecture: WideResNet-34-10
+    autoattack_acc: 53.08
+    clean_acc: 84.92
+    eps: 0.031
+    paper: Theoretically Principled Trade-off between Robustness and Accuracy
+    reported: 56.43
+  Zhang2019You:
+    architecture: WideResNet-34-10
+    autoattack_acc: 44.83
+    clean_acc: 87.2
+    eps: 0.03137254901960784
+    paper: 'You Only Propagate Once: Accelerating Adversarial Training via Maximal
+      Principle'
+    reported: 47.98
+  Zhang2020Attacks:
+    architecture: WideResNet-34-10
+    autoattack_acc: 53.51
+    clean_acc: 84.52
+    eps: 0.03137254901960784
+    paper: Attacks Which Do Not Kill Training Make Adversarial Learning Stronger
+    reported: 54.36
+  Zhang2020Geometry:
+    architecture: WideResNet-28-10
+    autoattack_acc: 59.64
+    clean_acc: 89.36
+    eps: 0.03137254901960784
+    paper: Geometry-aware Instance-reweighted Adversarial Training
+    reported: 59.64
+  Zhang2020Towards:
+    architecture: 5-layer-CNN
+    autoattack_acc: 32.64
+    clean_acc: 44.73
+    eps: 0.03137254901960784
+    paper: Towards Stable and Efficient Training of Verifiably Robust Neural Networks
+    reported: 34.29
+  ZhangWang2019Defense:
+    architecture: WideResNet-28-10
+    autoattack_acc: 36.64
+    clean_acc: 89.98
+    eps: 0.03137254901960784
+    paper: Defense Against Adversarial Attacks Using Feature Scattering-based Adversarial
+      Training
+    reported: 60.6
+  ZhangXu2020Adversarial:
+    architecture: WideResNet-28-10
+    autoattack_acc: 36.45
+    clean_acc: 90.25
+    eps: 0.03137254901960784
+    paper: 'Adversarial Interpolation Training: A Simple Approach for Improving Model
+      Robustness'
+    reported: 68.7
+cifar100:
+  Addepalli2021Towards_PARN18:
+    architecture: PreActResNet-18
+    autoattack_acc: 27.14
+    clean_acc: 62.02
+    eps: 0.03137254901960784
+    paper: Towards Achieving Adversarial Robustness Beyond Perceptual Limits
+    reported: 27.14
+  Addepalli2021Towards_WRN34:
+    architecture: WideResNet-34-10
+    autoattack_acc: 30.35
+    clean_acc: 65.73
+    eps: 0.03137254901960784
+    paper: Towards Achieving Adversarial Robustness Beyond Perceptual Limits
+    reported: 30.35
+  Addepalli2022Efficient_RN18:
+    architecture: ResNet-18
+    autoattack_acc: 27.67
+    clean_acc: 65.45
+    eps: 0.03137254901960784
+    paper: Efficient and Effective Augmentation Strategy for Adversarial Training
+    reported: 27.69
+  Addepalli2022Efficient_WRN_34_10:
+    architecture: WideResNet-34-10
+    autoattack_acc: 31.85
+    clean_acc: 68.75
+    eps: 0.03137254901960784
+    paper: Efficient and Effective Augmentation Strategy for Adversarial Training
+    reported: 31.85
+  Chen2020Efficient:
+    architecture: WideResNet-34-10
+    autoattack_acc: 26.94
+    clean_acc: 62.15
+    eps: 0.03137254901960784
+    paper: Efficient Robust Training via Backward Smoothing
+    reported: 26.94
+  Chen2021LTD_WRN34_10:
+    architecture: WideResNet-34-10
+    autoattack_acc: 30.59
+    clean_acc: 64.07
+    eps: 0.03137254901960784
+    paper: 'LTD: Low Temperature Distillation for Robust Adversarial Training'
+    reported: 30.59
+  Cui2020Learnable_34_10_LBGAT0:
+    architecture: WideResNet-34-10
+    autoattack_acc: 27.16
+    clean_acc: 70.25
+    eps: 0.03137254901960784
+    paper: Learnable Boundary Guided Adversarial Training
+    reported: 27.16
+  Cui2020Learnable_34_10_LBGAT6:
+    architecture: WideResNet-34-10
+    autoattack_acc: 29.33
+    clean_acc: 60.64
+    eps: 0.03137254901960784
+    paper: Learnable Boundary Guided Adversarial Training
+    reported: 29.33
+  Cui2020Learnable_34_20_LBGAT6:
+    architecture: WideResNet-34-20
+    autoattack_acc: 30.2
+    clean_acc: 62.55
+    eps: 0.03137254901960784
+    paper: Learnable Boundary Guided Adversarial Training
+    reported: 30.2
+  Debenedetti2022Light_XCiT-L12:
+    architecture: XCiT-L12
+    autoattack_acc: 35.08
+    clean_acc: 70.76
+    eps: 0.03137254901960784
+    paper: A Light Recipe to Train Robust Vision Transformers
+    reported: 35.08
+  Debenedetti2022Light_XCiT-M12:
+    architecture: XCiT-M12
+    autoattack_acc: 34.21
+    clean_acc: 69.21
+    eps: 0.03137254901960784
+    paper: A Light Recipe to Train Robust Vision Transformers
+    reported: 34.21
+  Debenedetti2022Light_XCiT-S12:
+    architecture: XCiT-S12
+    autoattack_acc: 32.19
+    clean_acc: 67.34
+    eps: 0.03137254901960784
+    paper: A Light Recipe to Train Robust Vision Transformers
+    reported: 32.19
+  Gowal2020Uncovering:
+    architecture: WideResNet-70-16
+    autoattack_acc: 30.03
+    clean_acc: 60.86
+    eps: 0.03137254901960784
+    paper: Uncovering the Limits of Adversarial Training against Norm-Bounded Adversarial
+      Examples
+    reported: 30.67
+  Gowal2020Uncovering_extra:
+    architecture: WideResNet-70-16
+    autoattack_acc: 36.88
+    clean_acc: 69.15
+    eps: 0.03137254901960784
+    paper: Uncovering the Limits of Adversarial Training against Norm-Bounded Adversarial
+      Examples
+    reported: 37.7
+  Hendrycks2019Using:
+    architecture: WideResNet-28-10
+    autoattack_acc: 28.42
+    clean_acc: 59.23
+    eps: 0.03137254901960784
+    paper: Using Pre-Training Can Improve Model Robustness and Uncertainty
+    reported: 33.5
+  Jia2022LAS-AT_34_10:
+    architecture: WideResNet-34-10
+    autoattack_acc: 30.77
+    clean_acc: 64.89
+    eps: 0.03137254901960784
+    paper: 'LAS-AT: Adversarial Training with Learnable Attack Strategy'
+    reported: 30.77
+  Jia2022LAS-AT_34_20:
+    architecture: WideResNet-34-20
+    autoattack_acc: 31.91
+    clean_acc: 67.31
+    eps: 0.03137254901960784
+    paper: 'LAS-AT: Adversarial Training with Learnable Attack Strategy'
+    reported: 31.91
+  Pang2022Robustness_WRN28_10:
+    architecture: WideResNet-28-10
+    autoattack_acc: 31.08
+    clean_acc: 63.66
+    eps: 0.03137254901960784
+    paper: ' Robustness and Accuracy Could Be Reconcilable by (Proper) Definition'
+    reported: 31.08
+  Pang2022Robustness_WRN70_16:
+    architecture: WideResNet-70-16
+    autoattack_acc: 33.05
+    clean_acc: 65.56
+    eps: 0.03137254901960784
+    paper: ' Robustness and Accuracy Could Be Reconcilable by (Proper) Definition'
+    reported: 33.05
+  Rade2021Helper_R18_ddpm:
+    architecture: PreActResNet-18
+    autoattack_acc: 28.88
+    clean_acc: 61.5
+    eps: 0.03137254901960784
+    paper: 'Helper-based Adversarial Training: Reducing Excessive Margin to Achieve
+      a Better Accuracy vs. Robustness Trade-off'
+    reported: 28.88
+  Rebuffi2021Fixing_28_10_cutmix_ddpm:
+    architecture: WideResNet-28-10
+    autoattack_acc: 32.06
+    clean_acc: 62.41
+    eps: 0.03137254901960784
+    paper: Fixing Data Augmentation to Improve Adversarial Robustness
+    reported: 32.06
+  Rebuffi2021Fixing_70_16_cutmix_ddpm:
+    architecture: WideResNet-70-16
+    autoattack_acc: 34.64
+    clean_acc: 63.56
+    eps: 0.03137254901960784
+    paper: Fixing Data Augmentation to Improve Adversarial Robustness
+    reported: 34.64
+  Rebuffi2021Fixing_R18_ddpm:
+    architecture: PreActResNet-18
+    autoattack_acc: 28.5
+    clean_acc: 56.87
+    eps: 0.03137254901960784
+    paper: Fixing Data Augmentation to Improve Adversarial Robustness
+    reported: 28.5
+  Rice2020Overfitting:
+    architecture: PreActResNet-18
+    autoattack_acc: 18.95
+    clean_acc: 53.83
+    eps: 0.03137254901960784
+    paper: Overfitting in adversarially robust deep learning
+    reported: 28.1
+  Sehwag2021Proxy:
+    architecture: WideResNet-34-10
+    autoattack_acc: 31.15
+    clean_acc: 65.93
+    eps: 0.03137254901960784
+    paper: 'Robust Learning Meets Generative Models: Can Proxy Distributions Improve
+      Adversarial Robustness?'
+    reported: 31.15
+  Sitawarin2020Improving:
+    architecture: WideResNet-34-10
+    autoattack_acc: 24.57
+    clean_acc: 62.82
+    eps: 0.03137254901960784
+    paper: Improving Adversarial Robustness Through Progressive Hardening
+    reported: 24.57
+  Wu2020Adversarial:
+    architecture: WideResNet-34-10
+    autoattack_acc: 28.86
+    clean_acc: 60.38
+    eps: 0.03137254901960784
+    paper: Adversarial Weight Perturbation Helps Robust Generalization
+    reported: 28.86
+imagenet:
+  Debenedetti2022Light_XCiT-L12:
+    architecture: XCiT-L12
+    autoattack_acc: 47.6
+    clean_acc: 73.76
+    eps: 0.01568627450980392
+    paper: A Light Recipe to Train Robust Vision Transformers
+    reported: 47.6
+  Debenedetti2022Light_XCiT-M12:
+    architecture: XCiT-M12
+    autoattack_acc: 45.24
+    clean_acc: 74.04
+    eps: 0.01568627450980392
+    paper: A Light Recipe to Train Robust Vision Transformers
+    reported: 45.24
+  Debenedetti2022Light_XCiT-S12:
+    architecture: XCiT-S12
+    autoattack_acc: 41.78
+    clean_acc: 72.34
+    eps: 0.01568627450980392
+    paper: A Light Recipe to Train Robust Vision Transformers
+    reported: 41.78
+  Engstrom2019Robustness:
+    architecture: ResNet-50
+    autoattack_acc: 29.22
+    clean_acc: 62.56
+    eps: 0.01568627450980392
+    paper: Robustness library
+    reported: 33.38
+  Salman2020Do_50_2:
+    architecture: WideResNet-50-2
+    autoattack_acc: 38.14
+    clean_acc: 68.46
+    eps: 0.01568627450980392
+    paper: Do Adversarially Robust ImageNet Models Transfer Better?
+    reported: -1.0
+  Salman2020Do_R18:
+    architecture: ResNet-18
+    autoattack_acc: 25.32
+    clean_acc: 52.92
+    eps: 0.01568627450980392
+    paper: Do Adversarially Robust ImageNet Models Transfer Better?
+    reported: -1.0
+  Salman2020Do_R50:
+    architecture: ResNet-50
+    autoattack_acc: 34.96
+    clean_acc: 64.02
+    eps: 0.01568627450980392
+    paper: Do Adversarially Robust ImageNet Models Transfer Better?
+    reported: -1.0
+  Standard_R50:
+    architecture: ResNet-50
+    autoattack_acc: 0.0
+    clean_acc: 76.52
+    eps: 0.01568627450980392
+    paper: Standardly trained model
+    reported: 0.0
+  Wong2020Fast:
+    architecture: ResNet-50
+    autoattack_acc: 26.24
+    clean_acc: 55.62
+    eps: 0.01568627450980392
+    paper: 'Fast is better than free: Revisiting adversarial training'
+    reported: 30.18
