@@ -2,7 +2,7 @@
 
 ## Overview
 
-Python implementation of "Efficient Diversified Attack: Multiple Diversification Strategies Lead to the Efficient Adversarial Attacks".
+Python implementation of "Appropriate Balance of Diversification and Intensification Improves Performance and Efficiency of Adversarial Attacks".
 
 ## Requirements
 
