@@ -44,7 +44,7 @@ def load_model_and_dataset(model_name: str, dataset: str, n_examples: int, threa
     if dataset not in {"cifar10", "cifar100", "imagenet"}:
         raise NotImplementedError(f"Dataloader for {dataset} is not implemented.")
     prepr = get_preprocessing(BenchmarkDataset(dataset), ThreatModel(threat_model), model_name, None)
-    model = load_model(model_name, model_dir="../models", dataset=dataset)
+    model = load_model(model_name, model_dir="../models", dataset=dataset, threat_model=threat_model)
     if dataset == "cifar10":
         x_test, y_test = load_cifar10(n_examples=n_examples, data_dir="../data")
     elif dataset == "cifar100":
